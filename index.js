@@ -5,13 +5,13 @@ const rpc = new RPC.Client({
 
 rpc.on("ready", () => {
     rpc.setActivity({
-        details: "A Multi-Purpose Discord Bot",
-        state: "Trusted in 78 Servers.",
+        details: "An idiot who codes.",
+        state: "I make RimBot and Bot for only myself.",
         startTimestamp: new Date(),
-        largeImageKey: "rimbot",
-        largeImageText: "RimBot",
-        smallImageKey: "pfp",
-        smallImageText: "Almost at 100 servers!",
+        largeImageKey: "sham",
+        largeImageText: "Sham",
+        smallImageKey: "rb",
+        smallImageText: "RimBot",
         buttons : [{label : "Invite" , url : "https://rimbot.xyz/invite/"},{label : "Website" , url : "https://rimbot.xyz/"}]
     })
 
@@ -19,5 +19,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: '827291056738402316'
+    clientId: '886912056366891068'
 })
