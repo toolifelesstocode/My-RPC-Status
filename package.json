@@ -1,23 +1,22 @@
 {
-  "name": "my-rpc-status",
+  "name": "ezar-rpc-status",
   "version": "1.0.0",
-  "description": "",
+  "description": "The status thingy to advertise eZaR i guess.",
   "main": "index.js",
-  "dependencies": {
-    "discord-rpc": "^4.0.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShamrockYT/My-RPC-Status.git"
+    "url": "git+https://github.com/realShamlol/My-RPC-Status.git"
   },
-  "author": "Sham#6910",
+  "author": "realShamlol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShamrockYT/My-RPC-Status/issues"
+    "url": "https://github.com/realShamlol/My-RPC-Status/issues"
   },
-  "homepage": "https://github.com/ShamrockYT/My-RPC-Status#readme"
+  "homepage": "https://github.com/realShamlol/My-RPC-Status#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
 }
